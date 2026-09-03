@@ -1,0 +1,30 @@
+[
+  {
+    "repository": "sindresorhus/awesome",
+    "description": "Curated list of awesome lists for many different topics.",
+    "url": "https://github.com/sindresorhus/awesome",
+    "language": "Markdown",
+    "starred_at": "2026-08-27"
+  },
+  {
+    "repository": "vitejs/vite",
+    "description": "Next generation frontend tooling for the modern web.",
+    "url": "https://github.com/vitejs/vite",
+    "language": "TypeScript",
+    "starred_at": "2026-08-19"
+  },
+  {
+    "repository": "shadcn-ui/ui",
+    "description": "Beautifully designed components built with Radix UI and Tailwind CSS.",
+    "url": "https://github.com/shadcn-ui/ui",
+    "language": "TypeScript",
+    "starred_at": "2026-08-11"
+  },
+  {
+    "repository": "koajs/koa",
+    "description": "Expressive middleware for Node.js using async functions.",
+    "url": "https://github.com/koajs/koa",
+    "language": "JavaScript",
+    "starred_at": "2026-07-30"
+  }
+]

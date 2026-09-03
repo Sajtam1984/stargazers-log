@@ -1,0 +1,109 @@
+:root {
+  color-scheme: light;
+  font-family: "Segoe UI", sans-serif;
+  color: #253044;
+  background: #f4f6f8;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+main {
+  width: min(100% - 2rem, 760px);
+  margin: 0 auto;
+  padding: 4rem 0;
+}
+
+header {
+  margin-bottom: 2rem;
+}
+
+h1 {
+  margin: 0 0 0.5rem;
+  color: #132238;
+  font-size: clamp(2rem, 6vw, 3.5rem);
+  letter-spacing: -0.04em;
+}
+
+header p {
+  margin: 0;
+  color: #607086;
+  font-size: 1.05rem;
+}
+
+.repository-list {
+  display: grid;
+  gap: 1rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.repository {
+  padding: 1.25rem;
+  border: 1px solid #dbe2e9;
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 8px 24px rgb(37 48 68 / 6%);
+}
+
+.repository-heading {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.repository a {
+  color: #176b87;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.repository a:hover,
+.repository a:focus-visible {
+  text-decoration: underline;
+}
+
+.repository p {
+  margin: 0.75rem 0 1rem;
+  color: #536276;
+  line-height: 1.5;
+}
+
+.repository-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.25rem;
+  color: #7a8798;
+  font-size: 0.875rem;
+}
+
+.status {
+  padding: 1rem;
+  border: 1px dashed #bdc9d5;
+  border-radius: 8px;
+  color: #607086;
+  background: #ffffff;
+}
+
+@media (max-width: 520px) {
+  main {
+    padding: 2.5rem 0;
+  }
+
+  .repository-heading {
+    display: block;
+  }
+
+  .repository-meta {
+    margin-top: 0.5rem;
+  }
+}
